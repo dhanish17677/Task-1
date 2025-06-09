@@ -57,16 +57,16 @@ This repository contains my implementation of **Task 1** for Kaiburr’s assessm
 ![GET tasks](screenshots/get-tasks.png)
 
 ### ✏️ PUT a task
-![PUT task](screenshots/put-task.png)
+![PUT task](screenshots/put-tasks.png)
 
 ### 🗑️ DELETE a task
-![DELETE task](screenshots/delete-task.png)
+![DELETE task](screenshots/delete-tasks.png)
 
 ### 🔍 Search tasks by name
-![Search tasks](screenshots/search-task.png)
+![Search tasks](screenshots/search-tasks.png)
 
 ### ⚡ Execute a task in Kubernetes pod
-![Execute task](screenshots/execute-task.png)
+![Execute task](screenshots/execute-tasks.png)
 
 ---
 
