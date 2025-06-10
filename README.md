@@ -39,13 +39,13 @@ This repository contains my implementation of **Task 1** for Kaiburr’s assessm
 
 ## 🧪 API Endpoints
 
-| Method | Endpoint                      | Description                                        |
-|--------|-------------------------------|----------------------------------------------------|
-| GET    | /tasks                        | Get all tasks or a specific task by ID             |
-| PUT    | /tasks                        | Create or update a task                            |
-| DELETE | /tasks/{id}                   | Delete a task by ID                                |
-| GET    | /tasks/search?name=xyz        | Search tasks by name                               |
-| PUT    | /tasks/{id}/execute           | Execute the command in a Kubernetes pod (busybox)  |
+| Method  | Endpoint                      | Description                                        |
+|---------|-------------------------------|----------------------------------------------------|
+| GET     | /tasks                        | Get all tasks or a specific task by ID             |
+| POST    | /tasks                        | Create a task                                      |
+| DELETE  | /tasks/{id}                   | Delete a task by ID                                |
+| GET     | /tasks/search?name=xyz        | Search tasks by name                               |
+| PUT     | /tasks/{id}/execute           | Execute the command in a Kubernetes pod (busybox)  |
 
 ---
 
@@ -56,7 +56,7 @@ This repository contains my implementation of **Task 1** for Kaiburr’s assessm
 ### 🔎 GET all tasks
 ![GET tasks](screenshots/get-tasks.png)
 
-### ✏️ PUT a task
+### ✏️ POST a task
 ![PUT task](screenshots/put-tasks.png)
 
 ### 🗑️ DELETE a task
