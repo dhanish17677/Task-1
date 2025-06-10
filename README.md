@@ -9,7 +9,7 @@ This repository contains my implementation of **Task 1** for Kaiburr’s assessm
 - **Backend**: Java Spring Boot application
 - **Database**: MongoDB
 - **Features**:
-  - Create, update, delete, and search tasks
+  - Create,update, delete, and search tasks
   - Execute commands in a Kubernetes pod
 
 ---
